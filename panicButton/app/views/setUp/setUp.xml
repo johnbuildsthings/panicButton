@@ -1,0 +1,18 @@
+<Page loaded='pageLoaded'>
+  <StackLayout>
+    <Label text='Enter name and number of contacts you want in you network:' />
+    
+    <TextField text="{{ name }}" id="name" keyboardType="email" />
+
+    <TextField text="{{ number }}" keyboardType="number" />
+
+    <button text="add" tap="{{ enterNumberAction }}" />
+
+    <button text='Main' tap='backToMain' />
+    
+    <Label text="You currently have {{ phoneNumbers.length }} contacts in your network" />
+
+    
+  </StackLayout>
+
+</Page>
