@@ -4,7 +4,7 @@
     <Button text="TAP" tap="{{ tapAction }}" />
     <Label text="{{ message }}" class="message" textWrap="true"/>
 
-    <button text='Panic' tap='panic' />
+    <button text='Panic' id='Panic' tap='panic' />
     <button text='set up' tap='setUp' />
   </StackLayout>
 </Page>
